@@ -1,0 +1,78 @@
+.education {
+  display: flex;
+  flex-direction: column;
+}
+
+.education__title {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 150%;
+  margin-bottom: 18px;
+}
+
+.education__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.education__card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 14px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+
+.education__card--favourite {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.education__card--favourite .education__hashtags {
+  color: #EBF9F2;
+}
+
+.education__card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.education__period,
+.education__field {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.education__heart {
+  display: block;
+  width: 18px;
+  height: 18px;
+}
+
+.education__hashtags {
+  font-size: 14px;
+  font-weight: 400;
+  color: #149063;
+}
+
+.education__place {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media (max-width: 470px) {
+  .education__cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .education__card {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+

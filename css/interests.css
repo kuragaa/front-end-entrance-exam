@@ -1,0 +1,28 @@
+.intrests {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.interests__title {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 150%;
+  margin-bottom: 18px;
+}
+
+.interests__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+  list-style: none;
+}
+
+.interests__item {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px 16px;
+  border-radius: 40px;
+  background-color: white;
+}
