@@ -8,6 +8,8 @@
 @import './education.css';
 @import './interests.css';
 @import './contacts.css';
+@import './editable.css';
+@import './pdf-button.css';
 
 :root {
   font-family: "Poppins", sans-serif;
@@ -28,9 +30,9 @@ html {
 }
 
 body {
-  min-height: 100%;
+  /* min-height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: center; */
   padding: 20px;
   background-color: var(--grey-color);
 }
@@ -40,4 +42,3 @@ section {
 	padding: 16px;
 	border-radius: 12px;
 }
-

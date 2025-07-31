@@ -8,14 +8,19 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.3",
+    "gh-pages": "^6.3.0",
     "jshint": "^2.13.6",
     "prettier": "^3.6.2",
     "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "html2pdf.js": "^0.10.3"
   }
 }

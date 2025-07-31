@@ -1,15 +1,10 @@
+import { setupProgressBars } from './progressBars.js';
+import { saveChanges } from './saveChanges.js';
+import { saveAsPdf } from './savePdf.js';
+
 document.addEventListener('DOMContentLoaded', () => {
-  const items = document.querySelectorAll('.language__item');
+  setupProgressBars();
+  saveChanges();
+});
 
-  items.forEach(item => {
-    const range = item.querySelector('input[type="range"]');
-    const fill = item.querySelector('.language__fill');
-
-    if (!range || !fill) return;
-
-    range.addEventListener('input', () => {
-      const val = range.value;
-      fill.style.width = `${val}%`;
-    });
-  });
-})
+document.getElementById('savePdfBtn').addEventListener('click', saveAsPdf);

@@ -6,6 +6,7 @@
   max-width: 900px;
   width: 100%;
   padding: 15px 20px;
+  margin: 0 auto;
   background-color: white;
 }
 
@@ -34,7 +35,7 @@
 }
 
 
-@media (max-width: 880px) {
+@media screen and (max-width: 880px) {
   #portfolio-layout {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -48,7 +49,7 @@
   }
 }
 
-@media (max-width: 520px) {
+@media screen and (max-width: 520px) {
   .profile-photo,
   .name {
     grid-column: span 2;
