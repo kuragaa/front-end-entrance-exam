@@ -1,3 +1,3 @@
 export default {
-  base: '/front-end-entrance-exam/',
+  base: '/responsive-resume-t-intensive-js-2025/',
 }
