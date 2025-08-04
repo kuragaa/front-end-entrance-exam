@@ -4,7 +4,7 @@
 
 ## 🌐 Демо
 
-🖥️ [Открыть опубликованную версию на GitHub Pages](https://kuragaa.github.io/front-end-entrance-exam/)
+🖥️ [Открыть опубликованную версию на GitHub Pages](https://kuragaa.github.io/responsive-resume-t-intensive-js-2025/)
 
 ---
 
@@ -19,8 +19,8 @@
 ## 📦 Установка проекта локально
 
 ```bash
-git clone https://github.com/kuragaa/front-end-entrance-exam.git
-cd front-end-entrance-exam
+git clone https://github.com/kuragaa/responsive-resume-t-intensive-js-2025.git
+cd responsive-resume-t-intensive-js-2025
 npm install
 npm run dev
 
